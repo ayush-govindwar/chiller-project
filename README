@@ -1,1 +1,21 @@
-CodeCortex GRAVITAS 2024
+CHILL LOAD ESTIMATOR AND EFFICIENCY ANALYZER
+
+*Files:
+
+1.CodeCortex.ipynb: EDA and Model Training
+2.DataPipeline.ipynb: Preprocessing the dataset before sending it to the backend for prediction
+3.app2.py: FastAPI. Runs on localhost port 3000. 
+4.web2.html: Webpage
+5.Test_csv.csv: Test dataset to be uploaded on the webpage.
+6.model.pkl: Saved Model.
+7.strlit.py: Streamlit app
+
+*Steps to follow while running the project:
+
+1. Run the app2.py file.
+2. Upload the Test_csv.csv file on the web2.html page
+3. Click Submit.
+4. Download the returned csv file.
+5. This csv file has the Estimated Chill Load Column along with the previous columns.
+6. Efficiency analysis is available on the website.
+
